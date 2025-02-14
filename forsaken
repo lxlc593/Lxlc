@@ -225,7 +225,7 @@ local function FartHubLoad()
 
 		FartHubEmoteGUI.Name = "lxlcEmoteGUI"
 		FartHubEmoteGUI.Parent = game:GetService("CoreGui")
-		FartHubEmoteGUI.ResetOnSpawn = false
+		FartHubEmoteGUI.ResetOnSpawn = true
 
 		Holder.Name = "Holder"
 		Holder.Parent = lxlcEmoteGUI
