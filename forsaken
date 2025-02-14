@@ -106,13 +106,13 @@ local function FartHubLoad()
 		},
 	}
 
-	setclipboard("https://linkunlocker.com/fartsaken-ZINXl")
+	setclipboard("https://pastefy.app/pZ1qG06g")
 
 	local GUI = Rayfield:CreateWindow({
-		Name = "FartSaken",
+		Name = "lxlcSaken",
 		Theme = "Default",
-		LoadingTitle = "Fart Hub",
-		LoadingSubtitle = "meow meow meow meow meow meow",
+		LoadingTitle = "lxlc",
+		LoadingSubtitle = "good boy 🗣️",
 		Icon = "microwave",
 		Link = "https://github.com/ivannetta/ShitScripts/Forsaken",
 
@@ -121,13 +121,13 @@ local function FartHubLoad()
 
 		KeySystem = true,
 		KeySettings = {
-			Title = "Fartsaken Key System",
+			Title = "lxlc Key System",
 			Subtitle = "im such a meowzer like meow meow",
 			Note = "Copied Link To Clipboard",
-			FileName = "FartHubKey",
+			FileName = "lxlcKey",
 			SaveKey = true,
 			GrabKeyFromSite = false,
-			Key = { "hi" }, -- this is very protected trust 😭
+			Key = { "Skibidi kid" }, -- this is very protected trust
 		},
 	})
 
@@ -256,7 +256,7 @@ local function FartHubLoad()
 		FartsakLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		FartsakLogo.BorderSizePixel = 0
 		FartsakLogo.Size = UDim2.new(1, 0, 1, 0)
-		FartsakLogo.Image = "http://www.roblox.com/asset/?id=138949854455429"
+		FartsakLogo.Image = "http://www.roblox.com/asset/?id=135321950074333"
 
 		LogoUIC.Name = "LogoUIC"
 		LogoUIC.Parent = LogoFrame
@@ -1271,8 +1271,8 @@ local function FartHubLoad()
 		local assetList = GetAssetList()
 		local basePath = "FartHub/Assets/"
 
-		if not isfolder("FartHub") then
-			makefolder("FartHub")
+		if not isfolder("lxlc") then
+			makefolder("lxlc")
 		end
 
 		if not isfolder(basePath) then
@@ -2118,8 +2118,8 @@ local function FartHubLoad()
 		})
 
 		Rayfield:Notify({
-			Title = "NOTE: Made by ivannetta",
-			Content = "Pls Join DC Server 😼",
+			Title = "NOTE: Made by lxlc",
+			Content = "Pls Join DC Server",
 			Duration = 5.2,
 			Image = "paperclip",
 		})
