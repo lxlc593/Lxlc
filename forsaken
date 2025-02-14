@@ -108,8 +108,8 @@ local function FartHubLoad()
 
 	setclipboard("https://pastefy.app/pZ1qG06g")
 
-	local GUI = Rayfield:CreateWindow({
-		Name = "lxlcSaken",
+	local GUI = skibidi:CreateWindow({
+		Name = "lxlc",
 		Theme = "Default",
 		LoadingTitle = "lxlc",
 		LoadingSubtitle = "good boy 🗣️",
@@ -309,7 +309,7 @@ local function FartHubLoad()
 		Front1.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
 		Front1.SizeConstraint = Enum.SizeConstraint.RelativeXX
 		Front1.ZIndex = 4
-		Front1.Image = "rbxassetid://112068843495830"
+		Front1.Image = "rbxassetid://135321950074333"
 
 		UIC111.Name = "UIC111"
 		UIC111.Parent = Front1
@@ -325,7 +325,7 @@ local function FartHubLoad()
 		Background1.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 		Background1.SizeConstraint = Enum.SizeConstraint.RelativeXX
 		Background1.ZIndex = 3
-		Background1.Image = "rbxassetid://138110752460865"
+		Background1.Image = "rbxassetid://135321950074333"
 
 		UIC11.Name = "UIC11"
 		UIC11.Parent = Background1
