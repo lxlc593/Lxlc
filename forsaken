@@ -2540,11 +2540,11 @@ local function FartHubLoad()
 		-- dead cuz no longer mercury lib
 		--if not JoinedSigmaServer then
 		--	GUI:Prompt({
-		--		Title = "Join Fart Hub discord server?",
+		--		Title = "Join lxlc discord server?",
 		--		Text = "It would help alot, and you can get early access to features!!!",
 		--		Buttons = {
 		--			["Ya :3"] = function()
-		--				setclipboard("https://discord.gg/AC4usvpwVY")
+		--				setclipboard("https://discord.gg/aSwbQttEv7")
 		--				GUI:Notification({ Title = "Discord Link Copied", Text = "i love you", Duration = 10 })
 		--				JoinedSigmaServer = true
 		--				WriteSigmaData()
@@ -2683,4 +2683,4 @@ end
 --	UICorner_4.Parent = GetKey
 --end
 
-FartHubLoad()
+lxlcLoad()
