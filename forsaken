@@ -2013,8 +2013,8 @@ local function FartHubLoad()
 			local Lighting = game:GetService("Lighting")
 			local CoreGui = game:GetService("CoreGui")
 
-			local EmoteGUI = CoreGui:FindFirstChild("FartHubEmoteGUI")
-			local BlurEffect = Lighting:FindFirstChild("FartHubBlur")
+			local EmoteGUI = CoreGui:FindFirstChild("lxlcEmoteGUI")
+			local BlurEffect = Lighting:FindFirstChild("lxlcBlur")
 
 			if EmoteGUI then
 				LopticaCooldown = true
@@ -2196,7 +2196,7 @@ local function FartHubLoad()
 		})
 
 		local CoolKidAimbotToggle = PlayerTab:CreateToggle({
-			Name = "C00lkid Aimbot",
+			Name = "C00lkidd Aimbot",
 			CurrentValue = false,
 			Callback = function(state)
 				game:GetService("ReplicatedStorage").Modules.Network.RemoteEvent
@@ -2215,7 +2215,7 @@ local function FartHubLoad()
 		})
 
 		local Do1x1x1x1PopupToggle = PlayerTab:CreateToggle({
-			Name = "Auto 1x4 Popups",
+			Name = "Auto 1x1x1x1x1 Popups",
 			CurrentValue = false,
 			Callback = function(state)
 				Do1x1PopupsLoop = state
@@ -2559,8 +2559,8 @@ local function FartHubLoad()
 	end
 
 	local function CheckAndDeleteAssets()
-		local basePath = "FartHub/Assets/"
-		local sigmaFilePath = "FartHub/Sigma.txt"
+		local basePath = "lxlc/Assets/"
+		local sigmaFilePath = "lxlc/Sigma.txt"
 
 		if not isfile(sigmaFilePath) then
 			if isfolder(basePath) then
