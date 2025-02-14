@@ -108,7 +108,7 @@ local function FartHubLoad()
 
 	setclipboard("https://pastefy.app/pZ1qG06g")
 
-	local GUI = skibidi:CreateWindow({
+	local GUI = Rayfield:CreateWindow({
 		Name = "lxlc",
 		Theme = "Default",
 		LoadingTitle = "lxlc",
